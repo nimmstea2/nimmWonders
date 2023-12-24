@@ -8,7 +8,7 @@
 		"uniques":"[+2] Movement <for [{Water}] units in [Friendly Land] tiles>", "All newly-trained [Water] units [in all cities] receive the [Targeting I] promotion"
 		"quote": "'Kiss me, Hardy.' - Horatio Nelson"
 	},
-	 {
+	{
 		"name": "Orszaghaz",
 		"culture": 1,
 		"greatPersonPoints": {"Great Engineer": 2},
