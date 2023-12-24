@@ -1,25 +1,39 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
+		"name": "Nelson's Column",
+		"culture": 1,
+		"greatPersonPoints": {"Great General": 2},
+		"isWonder": true,
+		"requiredTech": "Navigation",
+		"uniques":"[+2] Movement <for [{Water}] units in [Friendly Land] tiles>", "All newly-trained [Water] units [in all cities] receive the [Targeting I] promotion"
+		"quote": "'Kiss me, Hardy.' - Horatio Nelson"
 	},
-	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
-	}
+	 {
+		"name": "Orszaghaz",
+		"culture": 1,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"isWonder": true,
+		"requiredTech": "Railroads",
+		"uniques":"[+1 Production, +1 Food] from all [Courthouse] buildings","[+3 Gold, +3 Culture] from all [Courthouse] buildings <during a Golden Age>"
+		"quote": "“It’s beautiful here. They said that of course, that Budapest is beautiful. But it is in fact almost ludicrously beautiful.” -Anthony Bourdain"
+	},
+	 {
+		"name": "Harvard University",
+		"culture": 1,
+		"greatPersonPoints": {"Great Scientist": 2},
+		"isWonder": true,
+		"requiredTech": "Printing Press",
+		"uniques":"[+3 Science] [in all cities]"
+		"quote": "'Ask five economists and you'll get five different answers - six if one went to Harvard.' -Edgar Fiedler"
+	},
+	 {
+		"name": "Saint Paul's Cathedral",
+		"culture": 1,
+		"faith": 6,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"isWonder": true,
+		"requiredTech": "Steam Power",
+		"uniques": "[+50]% Strength for cities <vs [Siege] units>","[+50]% Strength for cities <vs [Air] units>"
+		"quote": "“It’s beautiful here. They said that of course, that Budapest is beautiful. But it is in fact almost ludicrously beautiful.” -Anthony Bourdain"
+	},
 ]
